@@ -1,15 +1,14 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'activerecord-postgres-json/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "activerecord-postgres-json"
-  gem.version       = Activerecord::Postgres::Json::VERSION
+  gem.version       = "0.0.0"
   gem.authors       = ["mpasternak"]
   gem.email         = ["michal.pasternak@in4mates.pl"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{postgres json support for active record}
+  gem.summary       = %q{postgres json support for active record}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
