@@ -15,3 +15,5 @@ else
   end
 end
 require "activerecord-postgres-json/coder"
+require "activerecord-postgres-json/string"
+require "activerecord-postgres-json/hash"

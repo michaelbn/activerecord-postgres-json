@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    activerecord-postgres-json (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord-postgres-json!

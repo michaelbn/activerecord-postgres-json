@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "activerecord-postgres-json"
-  gem.version       = "0.0.0"
+  gem.version       = "0.0.1"
   gem.authors       = ["mpasternak"]
   gem.email         = ["michal.pasternak@in4mates.pl"]
   gem.description   = %q{postgres json support for active record}
